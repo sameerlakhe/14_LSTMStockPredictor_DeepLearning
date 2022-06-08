@@ -67,14 +67,14 @@ Model using closing price, rolling window 50 loss : 0.0882
 However, for the model that uses closing prices, the window size does not make much difference***
 
 
-***Model predictions for 10 day rollinwg window using FNG index data**
+***Model predictions for 10 day rollinwg window using FNG index data***
 ![Prediction_FNG_10.png](Images/Prediction_FNG_10.png)
 
-***Model predictions for 5 day rollinwg window using FNG index data**
+***Model predictions for 5 day rollinwg window using FNG index data***
 ![Prediction_FNG_5.png](Images/Prediction_FNG_5.png)
 
-***Model predictions for 10 day rollinwg window using Closing price data**
+***Model predictions for 10 day rollinwg window using Closing price data***
 ![Prediction_ClosingPrice_10.png](Images/Prediction_ClosingPrice_10.png)
 
-***Model predictions for 5 day rollinwg window using Closing price data**
-![Prediction_ClosingPrice_5.png](Images/Prediction_ClosingPrice_5.png)
+***Model predictions for 5 day rollinwg window using Closing price data***
+![PredictionClosingPrice5.png](Images/PredictionClosingPrice5.png)
