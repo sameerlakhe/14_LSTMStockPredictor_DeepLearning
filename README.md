@@ -31,7 +31,7 @@ This is done using a function that does all the below steps
 3) Scale and reshape the data
 4) build and train LSTM model
 5) evaluate performance
-6) Predict Closing Prices using a 10 day window of previous fng values
+6) Predict Closing Prices using a 10 day window of previous values (FNG and Closing price data)
 
 This function is then invoked multiple times using different values for windoe timeframe to compare the results
 
