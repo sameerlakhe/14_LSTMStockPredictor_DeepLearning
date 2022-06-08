@@ -47,11 +47,13 @@ Which model has a lower loss?
 
 ***Using similar models on data based on FNG index and Closing price, the model has lower loss when using closing price***
 
+***Model Loss using FNG index data for different rolling window timeframe***
 - Model using FNG index, rolling window 10 loss : 0.3022
-- Model using FNG index,, rolling window 20 loss : 0.2962
-- Model using FNG index,, rolling window 5 loss : 0.1513
-- Model using FNG index,, rolling window 50 loss : 0.3810
+- Model using FNG index, rolling window 20 loss : 0.2962
+- Model using FNG index, rolling window 5 loss : 0.1513
+- Model using FNG index, rolling window 50 loss : 0.3810
 
+***Model Loss using closing price  data for different rolling window timeframe***
 - Model using closing price, rolling window 10 loss : 0.0785
 - Model using closing price, rolling window 20 loss : 0.0776
 - Model using closing price, rolling window 5 loss : 0.0833
