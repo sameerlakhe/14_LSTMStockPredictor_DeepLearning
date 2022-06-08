@@ -9,14 +9,14 @@ Build and evaluate deep learning models using both the FNG values and simple clo
 Use deep learning recurrent neural networks to model bitcoin closing prices. One model will use the FNG indicators to predict the closing price while the second model will use a window of closing prices to predict the nth closing price.
 
 
-1. [Prepare the data for training and testing](#prepare-the-data-for-training-and-testing)
-2. [Build and train custom LSTM RNNs](#build-and-train-custom-lstm-rnns)
-3. [Evaluate the performance of each model](#evaluate-the-performance-of-each-model)
+1. Prepare the data for training and testing
+2. Build and train custom LSTM RNNs
+3. Evaluate the performance of each model
 
 Use the FNG values to try and predict the closing price. 
 Use previous closing prices to try and predict the next closing price.
 
-Each model will  use 70% of the data for training and 30% of the data for testing.
+Each model will use 70% of the data for training and 30% of the data for testing.
 
 Apply a MinMaxScaler to the X and y values to scale the data for the model.
 
