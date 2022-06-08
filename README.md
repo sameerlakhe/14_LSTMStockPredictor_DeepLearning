@@ -43,9 +43,8 @@ Use the same parameters and training steps for each model. This is necessary to 
 
 Finally, use the testing data to evaluate each model and compare the performance.
 
-Use the above to answer the following:
+Which model has a lower loss?
 
-> Which model has a lower loss?
 ***Using similar models on data based on FNG index and Closing price, the model has lower loss when using closing price***
 
 - Model using FNG index, rolling window 10 loss : 0.3022
@@ -58,11 +57,13 @@ Use the above to answer the following:
 - Model using closing price, rolling window 5 loss : 0.0833
 - Model using closing price, rolling window 50 loss : 0.0882
 
->
-> Which model tracks the actual values better over time?
+
+Which model tracks the actual values better over time?
+
 ***The model using closing price tracks the values better over time***
->
-> Which window size works best for the model?
+
+Which window size works best for the model?
+
 ***For the model that uses FNG index, smaller window size works better i.e less loss.
 However, for the model that uses closing prices, the window size does not make much difference***
 
